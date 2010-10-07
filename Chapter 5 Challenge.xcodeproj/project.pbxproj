@@ -13,6 +13,7 @@
 		93B80281125D72ED00A3508B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93B8027F125D72ED00A3508B /* MainMenu.xib */; };
 		93B80284125D72ED00A3508B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 93B80282125D72ED00A3508B /* Credits.rtf */; };
 		93B80287125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B80286125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.m */; };
+		93B80294125D750700A3508B /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93B80293125D750700A3508B /* AppController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		93B80283125D72ED00A3508B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		93B80285125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chapter_5_ChallengeAppDelegate.h; sourceTree = "<group>"; };
 		93B80286125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Chapter_5_ChallengeAppDelegate.m; sourceTree = "<group>"; };
+		93B80292125D750700A3508B /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		93B80293125D750700A3508B /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +57,8 @@
 		93B8026B125D72EC00A3508B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				93B80292125D750700A3508B /* AppController.h */,
+				93B80293125D750700A3508B /* AppController.m */,
 				93B80285125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.h */,
 				93B80286125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.m */,
 			);
@@ -158,6 +163,7 @@
 			files = (
 				93B8027E125D72EC00A3508B /* main.m in Sources */,
 				93B80287125D72ED00A3508B /* Chapter_5_ChallengeAppDelegate.m in Sources */,
+				93B80294125D750700A3508B /* AppController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
